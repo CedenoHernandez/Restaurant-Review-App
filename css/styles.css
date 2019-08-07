@@ -47,6 +47,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+	max-width: 100%; /**/
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -71,7 +72,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+    max-width: 100%; /*calc(50% - 80px); fix this??*/
 }
 
 /* Display list items side by side */
@@ -102,14 +103,17 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+	margin-top: 50px; /**/
 }
+
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  width: 100%;
+  /*width: 100%;*/
   height: 100%;
   background-color: #3397DB;
   align-items: center;
 	padding: 5px;
+	max-width: 100%;
 }
 .filter-options h2 {
   color: white;
@@ -117,6 +121,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+	max-width: 100%;
 }
 .filter-options select {
   background-color: white;
@@ -155,7 +160,7 @@ nav h1 a {
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
-  margin: 0;
+  margin-top: 5%;
   max-width: 100%;
   min-height: 248px;
   min-width: 100%;
@@ -196,11 +201,10 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 40%; /**/
   position: fixed;
   right: 0;
   top: 80px;
-  width: 50%;
 }
 .inside #map {
   background-color: #ccc;
@@ -223,7 +227,9 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+	width: 100%; /**/
+	align-items: center; /**/
+	margin-top: 75px;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -245,10 +251,11 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+	top: 100px; /**/
+  /*width: 100%; /*change for desktop?*/
 }
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 30px 40px 80px; /**/
 }
 #reviews-container h2 {
   color: #f58500;
