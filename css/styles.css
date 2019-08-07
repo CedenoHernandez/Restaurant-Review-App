@@ -55,6 +55,8 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+	z-index: 1002; //////////////
+	position: absolute; //////
 }
 nav h1 {
   margin: auto;
@@ -103,6 +105,8 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+	position: relative; /*zindex*/
+	z-index: 1; /**/
 	/*margin-top: 50px; /**/
 	/*position: fixed; /* YOU LEFT OFF HERE CEDENO!!!!!!!!!!!!!! The image and map are fighting for the spot!!*/
 }
@@ -286,4 +290,8 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+.leaflet-control-container .leaflet-bottom.leaflet-right {
+	z-index: 1001; ///////////////
 }
