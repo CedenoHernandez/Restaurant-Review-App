@@ -58,8 +58,6 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
-	z-index: 1002; //////////////
-	position: absolute; //////
 }
 nav h1 {
   margin: auto;
@@ -300,6 +298,33 @@ nav h1 a {
   color: #666;
 }
 
-.leaflet-control-container .leaflet-bottom.leaflet-right {
-	z-index: 1001; ///////////////
+/* ====================== Media Queries ====================== */
+
+/* optimized for iPad*/
+@media screen and (min-width: 415px) {
+	#restaurants-list {
+		align-items: center;
+	}
+	.filter-options select {
+	  font-size: 13pt;
+	  margin: 30px;
+		margin-left: 60px;
+	  padding: 0 20px;
+	  width: 35%;
+		align-items: center;
+		text-align: center;
+	}
+	nav h1 {
+	  margin: auto;
+		padding-top: 25px;
+	}
+	nav h1 a {
+	  font-size: 17pt;
+	}
+	#reviews-list li {
+	  margin: 0 0 30px 30px;
+	}
+	#footer {
+		width: 100%;
+	}
 }
