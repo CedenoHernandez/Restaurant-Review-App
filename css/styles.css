@@ -223,6 +223,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
+	min-width: 100%;
   max-width: 100%; /**/
 }
 #restaurant-name {
@@ -325,6 +326,28 @@ nav h1 a {
 	  margin: 0 0 30px 30px;
 	}
 	#footer {
-		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+	}
+}
+
+/* display for desktops*/
+@media screen and (min-width: 769px) and (max-width: 1800px) {
+	#restaurants-list {
+		display: grid;
+		grid-template-columns: 40% 40%;
+		align-items: center;
+		margin: auto;
+		justify-content: center;
+	}
+	.filter-options select {
+	  font-size: 13pt;
+	  width: 40%;
+		align-items: center;
+		text-align: center;
+	}
+	#reviews-list li {
+	  margin: 0 0 60px 60px;
 	}
 }
