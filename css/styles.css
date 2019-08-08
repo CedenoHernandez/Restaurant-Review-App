@@ -50,7 +50,6 @@ h2 {
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
-	/*max-width: 100%; /**/
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -75,7 +74,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    max-width: 100%; /*calc(50% - 80px); fix this??*/
+    max-width: 100%;
 }
 
 /* Display list items side by side */
@@ -106,20 +105,17 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
-	position: relative; /*zindex*/
-	z-index: 1; /**/
-	/*margin-top: 50px; /**/
-	/*position: fixed; /* YOU LEFT OFF HERE CEDENO!!!!!!!!!!!!!! The image and map are fighting for the spot!!*/
+	position: relative;
+	z-index: 1;
 }
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  /*width: 100%;*/
   height: 120px;
   background-color: #3397DB;
   align-items: center;
 	padding: 5px;
-	max-width: 100%; /**/
+	max-width: 100%;
 }
 .filter-options h2 {
   color: white;
@@ -127,7 +123,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
-	max-width: 100%; /**/
+	max-width: 100%;
 }
 .filter-options select {
   background-color: white;
@@ -147,10 +143,8 @@ nav h1 a {
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
-  text-align: center;   /*in original code but do we need?? 145 146 147*/
-	display: flex;
+  text-align: center;
 	flex-direction: column;
-	/*align-items: center;*/
 }
 #restaurants-list li {
   background-color: #fff;
@@ -194,7 +188,6 @@ nav h1 a {
   font-size: 10pt;
   margin: 15px 0 0;
   padding: 8px 30px 10px;
-  /*text-align: center;*/
 	align-items: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -209,8 +202,8 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 10%; /*looking good*/
-  position: absolute; /*THIS IS WHAT MAKES MAP DISAPPEAR!!*/
+  height: 10%;
+  position: absolute;
   right: 0;
   top: 130px;
 	width: 100%;
@@ -224,7 +217,7 @@ nav h1 a {
   bottom: 0;
   position: absolute;
 	min-width: 100%;
-  max-width: 100%; /**/
+  max-width: 100%;
 }
 #restaurant-name {
   color: #f18200;
@@ -239,9 +232,7 @@ nav h1 a {
 	text-align: center;
 }
 #restaurant-img {
-	width: 100%; /**/
-	/*align-items: center; /**/
-	/*margin-top: 75px;*/ /*DOUBLE CHECK HERE!!!!!*/
+	width: 100%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -263,8 +254,6 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 400px 40px 30px;
-	/*top: 100px; /**/
-  /*width: 50%; /*change for desktop?*/
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -328,7 +317,6 @@ nav h1 a {
 	#footer {
 		min-width: 100%;
 		max-width: 100%;
-
 	}
 }
 
