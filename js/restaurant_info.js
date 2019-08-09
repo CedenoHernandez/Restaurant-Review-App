@@ -1,6 +1,9 @@
 let restaurant;
 var newMap;
 
+/*help with tab focus on Reviews section of site*/
+document.querySelector(h2).tabIndex = 0;
+
 /**
  * Initialize map as soon as the page is loaded.
  */
@@ -129,6 +132,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
   container.appendChild(title);
+
 
   if (!reviews) {
     const noReviews = document.createElement('p');
