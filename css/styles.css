@@ -51,6 +51,12 @@ h2 {
   text-align: center;
   text-transform: uppercase;
 }
+
+/*help see tab cursor more easily with blues on screen*/
+:focus {
+  /*background: yellow;*/
+  outline-color: red;
+}
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
