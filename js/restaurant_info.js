@@ -1,7 +1,7 @@
 let restaurant;
 var newMap;
 
-/*help with tab focus on Reviews section of site*/
+/*help with tab focus on Reviews section of site
 document.querySelector(h2).tabIndex = 0;
 
 /**
