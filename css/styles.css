@@ -47,7 +47,7 @@ h2 {
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 20px 0px 20px 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -274,18 +274,19 @@ nav h1 a {
 #reviews-list {
   margin: 0;
   padding: 0;
+	display: inline-block;
 }
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
-  display: block;
+  display: inline-block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
   padding: 20px;
 	border-radius: 15px;
   position: relative;
-  width: 85%;
+  width: 88%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -317,8 +318,13 @@ nav h1 a {
 	nav h1 a {
 	  font-size: 17pt;
 	}
+	#restaurants-list li {
+	  padding: auto;
+		display:inline-block;
+	}
 	#reviews-list li {
-	  margin: 0 0 30px 30px;
+		padding: auto;
+		display:inline-block;
 	}
 	#footer {
 		min-width: 100%;
