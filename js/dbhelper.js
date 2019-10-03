@@ -8,8 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   get DATABASE_URL() {
-    const url = 'https://restaurantreview17.netlify.com/'; // Change this to your server port
-    return `${url}/data/restaurants.json`;
+    return `mws-restaurant-stage-1-master/data/restaurants.json`;
   }
 
   /**
