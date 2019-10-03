@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const url = 'https://restaurantreview17.netlify.com/'; // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    return `../data/restaurants.json`;
   }
 
   /**
