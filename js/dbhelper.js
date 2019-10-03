@@ -8,7 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   get DATABASE_URL() {
-    return `mws-restaurant-stage-1-master/data/restaurants.json`;
+    return 'mws-restaurant-stage-1-master/data/restaurants.json';
   }
 
   /**
