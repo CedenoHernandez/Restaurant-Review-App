@@ -7,7 +7,7 @@ class DBHelper {
    * Database URL.
    * Change this to restaurants.json file location on your server.
    */
-  get DATABASE_URL() {
+  static get DATABASE_URL() {
     fetch('mws-restaurant-stage-1-master/data/restaurants.json');
   }
 
