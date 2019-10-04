@@ -8,10 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    fetch('mws-restaurant-stage-1-master/data/restaurants.json');
-    .then(response => {
-    return response.json()
-  });
+    return `https://raw.githubusercontent.com/CedenoHernandez/Restaurant-Review-App/master/data/restaurants.json`;
   }
 
   /**
