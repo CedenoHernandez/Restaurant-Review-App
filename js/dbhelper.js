@@ -9,6 +9,9 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     fetch('mws-restaurant-stage-1-master/data/restaurants.json');
+    .then(response => {
+    return response.json()
+  });
   }
 
   /**
